@@ -138,9 +138,12 @@ const WeeklyDoseButton = styled(Link)`
   text-decoration: none;
   cursor: pointer;
   letter-spacing: 0.04rem;
-  margin: 0 0 2rem 0;
   color: white;
+
   @media (min-width: 320px) {
+    font-size: 1.5rem;
+  }
+  @media (min-width: 400px) {
     font-size: 2rem;
   }
   @media (min-width: 768px) {
@@ -153,7 +156,12 @@ const WeeklyDoseButton = styled(Link)`
 
 const StyledSeed = styled(Seed) `
   animation: ${rotate} 42s linear infinite;
+  
   @media (min-width: 320px) {
+    height: 77px;
+    width: 77px;
+  }
+  @media (min-width: 4000px) {
     height: 88px;
     width: 88px;
   }

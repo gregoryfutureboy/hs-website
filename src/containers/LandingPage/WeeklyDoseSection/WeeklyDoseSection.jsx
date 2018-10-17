@@ -118,17 +118,17 @@ const WeeklyDoseContainer = styled('div')`
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: ${rainbow} 42s linear infinite;
+  
 `
 
 const WeeklyDoseButton = styled(Link)`
   padding: 2rem 4rem;
-  color: white;
   text-decoration: none;
   cursor: pointer;
   font-size: 5rem;
   letter-spacing: 0.04rem;
   margin: 0 0 2rem 0;
+  animation: ${rainbow} 42s linear infinite;
 `
 
 class WeeklyDoseSection extends Component {

@@ -6,6 +6,7 @@ const StyledTopContainer = styled('div')`
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 2rem;
 `
 
 const StyledTopTitle = styled('h1') `
@@ -13,7 +14,7 @@ const StyledTopTitle = styled('h1') `
   color: black;
   
   @media (min-width: 320px) {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   @media (min-width: 400px) {

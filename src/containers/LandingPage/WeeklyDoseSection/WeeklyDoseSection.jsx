@@ -142,15 +142,19 @@ const WeeklyDoseButton = styled(Link)`
 
   @media (min-width: 320px) {
     font-size: 1.5rem;
+    margin: 4rem 0;
   }
   @media (min-width: 400px) {
     font-size: 2rem;
+    margin: 4rem 0;
   }
   @media (min-width: 768px) {
     font-size: 4rem;
+    margin: 6rem 0;
   }
   @media (min-width: 1200px) {
     font-size: 5rem;
+    margin: 8rem 0;
   }
 `
 
@@ -195,13 +199,9 @@ class WeeklyDoseSection extends Component {
     return (
       <WeeklyDoseContainer>
         <StyledSeed />
-          <StyledLosange>
-            {/* <StyledSeed /> */}
-            <WeeklyDoseButton to='/your-weekly-dose' exact>
-              your weekly dose
-            </WeeklyDoseButton>  
-            {/* <StyledSeed /> */}
-          </StyledLosange>
+        <WeeklyDoseButton to='/your-weekly-dose' exact>
+          your weekly dose
+        </WeeklyDoseButton>  
         <StyledSeed />
       </WeeklyDoseContainer>
     )

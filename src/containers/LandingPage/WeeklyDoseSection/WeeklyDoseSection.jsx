@@ -155,12 +155,15 @@ const StyledSeed = styled(Seed) `
   animation: ${rotate} 42s linear infinite;
   @media (min-width: 320px) {
     height: 88px;
+    width: 88px;
   }
   @media (min-width: 768px) {
     height: 101px;
+    width: 101px;
   }
   @media (min-width: 1200px) {
     height: 123px;
+    width: 123px;
   }
 `
 

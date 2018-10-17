@@ -9,7 +9,7 @@ class LandingPage extends Component {
     return (
       <Fragment>
         <HeroSection />
-        <SeedSection />
+        {/* <SeedSection /> */}
         <WeeklyDoseSection />
       </Fragment>
     )

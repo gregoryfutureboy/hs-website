@@ -131,9 +131,20 @@ const StyledHeroTextBox = styled('div') `
 `
 
 const StyledHeroTitle = styled('h1') `
-  font-size: 5rem;
   letter-spacing: 0.04rem;
-  margin: 0 0 2rem 0;
+  
+  @media (min-width: 320px) {
+    font-size: 3rem;
+    margin: 0 0 1.5rem 0;
+  }
+  @media (min-width: 768px) {
+    font-size: 4rem;
+    margin: 0 0 2rem 0;
+  }
+  @media (min-width: 1200px) {
+    font-size: 5rem;
+    margin: 0 0 2rem 0;
+  }
 `
 
 const StyledHeroSubtitle = styled('h3') `

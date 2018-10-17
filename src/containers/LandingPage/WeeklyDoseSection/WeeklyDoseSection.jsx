@@ -137,22 +137,46 @@ const WeeklyDoseButton = styled(Link)`
   padding: 2rem 4rem;
   text-decoration: none;
   cursor: pointer;
-  font-size: 5rem;
   letter-spacing: 0.04rem;
   margin: 0 0 2rem 0;
   color: white;
+  @media (min-width: 320px) {
+    font-size: 2rem;
+  }
+  @media (min-width: 768px) {
+    font-size: 4rem;
+  }
+  @media (min-width: 1200px) {
+    font-size: 5rem;
+  }
 `
 
 const StyledSeed = styled(Seed) `
-  height: 123px;
   animation: ${rotate} 42s linear infinite;
+  @media (min-width: 320px) {
+    height: 88px;
+  }
+  @media (min-width: 768px) {
+    height: 101px;
+  }
+  @media (min-width: 1200px) {
+    height: 123px;
+  }
 `
 
 const StyledLosange = styled('div') `
-  margin: 8rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (min-width: 320px) {
+    margin: 4rem 0;
+  }
+  @media (min-width: 768px) {
+    margin: 8rem 0;
+  }
+  @media (min-width: 1200px) {
+    margin: 8rem 0;
+  }
 `
 
 class WeeklyDoseSection extends Component {

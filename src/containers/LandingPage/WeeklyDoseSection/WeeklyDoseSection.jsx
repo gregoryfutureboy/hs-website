@@ -161,11 +161,11 @@ class WeeklyDoseSection extends Component {
       <WeeklyDoseContainer>
         <StyledSeed />
           <StyledLosange>
-            <StyledSeed />
+            {/* <StyledSeed /> */}
             <WeeklyDoseButton to='/your-weekly-dose' exact>
               your weekly dose
             </WeeklyDoseButton>  
-            <StyledSeed />
+            {/* <StyledSeed /> */}
           </StyledLosange>
         <StyledSeed />
       </WeeklyDoseContainer>

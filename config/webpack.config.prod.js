@@ -273,6 +273,19 @@ module.exports = {
               name: 'static/media/[name].[hash:8].[ext]',
             },
           },
+               {
+                 test: /\.svg$/,
+                 use: [{
+                     loader: "babel-loader"
+                   },
+                   {
+                     loader: "react-svg-loader",
+                     options: {
+                       jsx: true // true outputs JSX tags
+                     }
+                   }
+                 ]
+               },
           // Process application JS with Babel.
           // The preset includes JSX, Flow, and some ESnext features.
           {

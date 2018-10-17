@@ -9,10 +9,23 @@ const StyledTopContainer = styled('div')`
 `
 
 const StyledTopTitle = styled('h1') `
-  font-size: 5rem;
   letter-spacing: 0.04rem;
-  margin: 0 0 2rem 0;
   color: black;
+  
+  @media (min-width: 320px) {
+    font-size: 2rem;
+  }
+
+  @media (min-width: 400px) {
+    font-size: 3rem;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 4rem;
+  }
+  @media (min-width: 1200px) {
+    font-size: 5rem;
+  }
 `
 
 class TopSection extends Component {

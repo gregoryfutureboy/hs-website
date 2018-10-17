@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import styled, { keyframes } from 'react-emotion';
+import Seed from './../../../assets/seedlife.svg';
 
 const rainbow = keyframes`
   /* background-color: #FF8E8C;
@@ -138,6 +139,7 @@ class WeeklyDoseSection extends Component {
         <WeeklyDoseButton to='/your-weekly-dose' exact>
           your weekly dose
         </WeeklyDoseButton>
+        <Seed/>
       </WeeklyDoseContainer>
     )
   }

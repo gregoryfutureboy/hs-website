@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 
 import HeroSection from './HeroSection/HeroSection';
+import SeedSection from './SeedSection/SeedSection';
 import WeeklyDoseSection from './WeeklyDoseSection/WeeklyDoseSection';
 
 class LandingPage extends Component {
@@ -8,6 +9,7 @@ class LandingPage extends Component {
     return (
       <Fragment>
         <HeroSection />
+        <SeedSection />
         <WeeklyDoseSection />
       </Fragment>
     )
